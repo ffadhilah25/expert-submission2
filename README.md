@@ -43,6 +43,14 @@ Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga l
 email metabase: farahfadhilah63@gmail.com
 password: Padparrr25
 
+## PROTOTYPE
+prototype dapat diakses pada: https://expert-submission2-zsak34g5kvhrawbbmmxxxd.streamlit.app/
+<div>
+   
+![image]()
+ 
+</div>
+
 ## Conclusion
 
 Jelaskan konklusi dari proyek yang dikerjakan.
