@@ -47,7 +47,7 @@ password: Padparrr25
 prototype dapat diakses pada: https://expert-submission2-zsak34g5kvhrawbbmmxxxd.streamlit.app/
 <div>
    
-![image]()
+![image](https://github.com/ffadhilah25/expert-submission2/blob/main/itspadpar-prototype.png)
  
 </div>
 
