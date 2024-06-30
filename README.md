@@ -6,11 +6,38 @@ Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang tela
 
 ### Permasalahan Bisnis
 
-Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
+Tingkat dropout yang tinggi ini menjadi masalah signifikan bagi Jaya Jaya Institut, karena tidak hanya mempengaruhi citra dan reputasi institusi, tetapi juga berdampak pada efisiensi operasional dan keberhasilan akademik secara keseluruhan. Untuk mengatasi masalah ini, Jaya Jaya Institut berupaya mendeteksi mahasiswa yang berpotensi dropout sejak dini agar dapat memberikan bimbingan khusus dan dukungan yang diperlukan, dengan tujuan mengurangi tingkat dropout dan meningkatkan keberhasilan akademik mahasiswa.
 
 ### Cakupan Proyek
 
-Tuliskan cakupan proyek yang akan dikerjakan.
+Tujuan proyek:  mengurangi tingkat dropout di Jaya Jaya Institut melalui deteksi dini mahasiswa yang berpotensi tidak menyelesaikan pendidikan mereka berdasarkan parameter-parameter yang ada
+
+Berikut adalah cakupan proyek yang dikerjakan:
+1. Persiapan
+   - menyiapkan library yang dibutuhkan
+   - menyiapkan data yang digunakan
+2. Data Understanding
+   - cek data null
+   - cek tipe data
+   - mengubah typo
+   - EDA
+   - import data ke supabase
+3. Data Preprocessing
+   - train-test split
+   - encoding & scaling
+4. Modeling
+   - model decision tree
+   - model random forest
+   - model gradient boosting
+5. Evaluation
+   - evaluasi model decision tree
+   - evaluasi model random forest
+   - evaluasi model gradient boosting
+
+Hasil akhir proyek:
+- dashboard untuk memahami dan memonitor performa mahasiswa
+- model machine learning dalam bentuk prototype
+- rekomendasi action items
 
 ### Persiapan
 
@@ -38,10 +65,8 @@ streamlit run student_app.py
 ```
 ## Business Dashboard
 
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
-
--> email metabase: farahfadhilah63@gmail.com
--> password: Padparrr25
+- email metabase: farahfadhilah63@gmail.com
+- password: Padparrr25
 
 <div align="center">
    
@@ -49,21 +74,98 @@ Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga l
 
 </div>
 
+Informasi yang didapatkan pada dashboard, antara lain:
+- banyaknya mahasiswa yang dropout
+- rata-rata admission grade
+- jumlah mahasiswa berdasarkan gender dan status
+- attendance mahasiswa
+- rata-rata umur saat enrollment berdasarkan gender
+- pengelompokan application order
+- rata-rata previous qualification grade
+- banyaknya mahasiswa yang menjadi scholarship holder
+- jumlah antara curricular units enrolled vs curricular units approved pada 1st semester
+- jumlah antara curricular units enrolled vs curricular units approved pada 2nd semester
+
 ## PROTOTYPE
+
 prototype dapat diakses pada: https://expert-submission2-zsak34g5kvhrawbbmmxxxd.streamlit.app/
+
 <div>
    
 ![image](https://github.com/ffadhilah25/expert-submission2/blob/main/itspadpar-prototype.png)
  
 </div>
 
+Terdapat 5 bagian yang perlu diisi pada prototype, yaitu:
+1. General information
+   - gender
+   - marital status
+   - nationality
+2. Parents information
+   - mother's qualification
+   - father's qualification
+   - mother's occupation
+   - father's occupation
+3. Others
+   - attendance
+   - previous qualification
+   - educational special needs
+   - aplication mode
+   - displaced
+   - course
+   - international student
+   - previous qualification grade
+   - admission grade
+   - debtor
+   - scholarship
+   - tuition fees up to date
+4. Study tracer
+   - curricular units enrolled 1st semester
+   - curricular units evaluated 1st semester
+   - curricular units approved 1st semester
+   - curricular units grade 1st semester
+   - curricular units enrolled 2nd semester
+   - curricular units evaluated 2nd semester
+   - curricular units approved 2nd semester
+   - curricular units grade 2nd semester
+5. Additional information
+   - application order
+   - age at enrollment
+   - unemployement rate
+   - inflation rate
+   - GDP
+
+Setelah seluruh data dimasukkan, data akan tertampilkan pada bagian 'View the Raw Data'
+Untuk menjalankan prediksi, tekan tombol 'Predict' dan akan didapatkan hasil:
+- view the preprocessed data
+- status mahasiswa (Graduate, Enrolled, Dropout)
+
 ## Conclusion
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+Model machine learning yang digunakan untuk pembuatan prototype adalah model random forest, karena memberikan accuracy yang paling baik dibandingkan dengan 2 model lainnya.
+
+Feature numerikal yang digunakan untuk menyusun model machine learning:
+- Curricular_units_1st_sem_enrolled
+- Curricular_units_1st_sem_evaluations
+- Curricular_units_1st_sem_approved
+- Curricular_units_1st_sem_grade
+- Curricular_units_2nd_sem_enrolled
+- Curricular_units_2nd_sem_evaluations
+- Curricular_units_2nd_sem_approved
+- Curricular_units_2nd_sem_grade
+- Admission_grade
+- GDP
+- Age_at_enrollment
+- Previous_qualification_grade
+
+Faktor yang memengaruhi banyaknya mahasiswa dropout berdasarkan machine learning:
+- tuitions fees
+- scholarship
+- both father's and mother's qualification and occupation
 
 ### Rekomendasi Action Items (Optional)
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-
-- action item 1
-- action item 2
+Beberapa hal yang mungkin dapat diterapkan oleh pihak institusi:
+- mengadakan aju banding untuk pembayaran tuition fees
+- membuka lebih banyak scholarship dengan syarat dan ketentuan yang tidak menyulitkan mahasiswa
+- memberikan kelas tambahan bagi mahasiswa dengan orang tua yang kurang terampil
