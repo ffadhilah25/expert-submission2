@@ -40,8 +40,14 @@ streamlit run student_app.py
 
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
 
-email metabase: farahfadhilah63@gmail.com
-password: Padparrr25
+-> email metabase: farahfadhilah63@gmail.com
+-> password: Padparrr25
+
+<div align="center">
+   
+![image](https://github.com/ffadhilah25/expert-submission2/blob/main/itspadpar-dashboard.jpg)
+
+</div>
 
 ## PROTOTYPE
 prototype dapat diakses pada: https://expert-submission2-zsak34g5kvhrawbbmmxxxd.streamlit.app/
