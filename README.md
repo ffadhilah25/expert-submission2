@@ -159,13 +159,13 @@ Feature numerikal yang digunakan untuk menyusun model machine learning:
 - Previous_qualification_grade
 
 Faktor yang memengaruhi banyaknya mahasiswa dropout berdasarkan machine learning:
-- tuitions fees
-- scholarship
-- both father's and mother's qualification and occupation
+- tuitions fees: banyak mahasiswa dropout karena terkendala dalam membayar uang kuliah (menunggak)
+- scholarship: mahasiswa yang tidak mendapatkan beasiswa banyak yang dropout
+- both father's and mother's qualification and occupation: kualifikasi dan pekerjaan orang tua (seperti orang tua tidak bisa membaca dan menulis, pekerjaan orang tua yang berupa siswa atau bahkan pegawai yang tidak terampil) menjadi alasan lain banyak mahasiswa yang dropout
 
-### Rekomendasi Action Items (Optional)
+### Rekomendasi Action Items
 
 Beberapa hal yang mungkin dapat diterapkan oleh pihak institusi:
-- mengadakan aju banding untuk pembayaran tuition fees
-- membuka lebih banyak scholarship dengan syarat dan ketentuan yang tidak menyulitkan mahasiswa
-- memberikan kelas tambahan bagi mahasiswa dengan orang tua yang kurang terampil
+- mengadakan aju banding untuk pembayaran tuition fees: agar mahasiswa bisa melakukan pencicilan dalam membayar uang kuliah, disertai dengan syarat-syarat yang memadai (seperti bukti kondisi keuangan, dll)
+- membuka lebih banyak scholarship: agar mahasiswa lainnya dapat menjadi penerima beasiswa dan memberikan peluang agar dapat lulus (disertai dengan syarat-syarat yang mudah untuk diikuti mahasiswa)
+- memberikan kelas tambahan bagi mahasiswa (untuk mahasiswa dg kualifikasi dan pekerjaan orangtuanya yang kurang baik): agar mahasiswa mendapatkan insight lain (pembelajaran-pembelajaran lain) yang tidak diberikan oleh orang tuanya, kelas tambahan dapat berupa kelas kepemimpinan, dll.
